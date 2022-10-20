@@ -1,0 +1,21 @@
+{
+    "name": "alexrah/sorted-iterator",
+    "description": "Helper Classes extending SplHeap to use together with classes RecursiveIteratorIterator & RecursiveDirectoryIterator. Provides Binary safe string comparison",
+    "keywords": ["iterator","sorted","sorted-iterator","recursive-iterator"],
+    "homepage": "https://github.com/alexrah/sorted-iterator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alessandro stoppato",
+            "email": "alexrah@gmail.com",
+            "homepage": "https://github.com/alexrah/"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {"SortedIterator\\": "src/SortedIterator"}
+    }
+}
