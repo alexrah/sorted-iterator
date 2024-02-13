@@ -1,6 +1,6 @@
 {
     "name": "alexrah/sorted-iterator",
-    "description": "Helper Classes extending SplHeap to use together with classes RecursiveIteratorIterator & RecursiveDirectoryIterator. Provides Binary safe string comparison",
+    "description": "Helper Classes to dynamically include_once a sorted list of files from passed array of dirs",
     "keywords": ["iterator","sorted","sorted-iterator","recursive-iterator"],
     "homepage": "https://github.com/alexrah/sorted-iterator",
     "type": "library",
