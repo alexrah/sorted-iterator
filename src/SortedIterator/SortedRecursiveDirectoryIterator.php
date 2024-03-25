@@ -30,7 +30,7 @@ class SortedRecursiveDirectoryIterator {
 			}
 		} catch (\Exception $exception){
 
-			error_log(__FILE__ . ":" . $exception->getMessage() );
+			error_log( 'PHP Warning:  '. $exception->getMessage() . ' in ' . $exception->getFile() . ' on line '. $exception->getLine());
 
 		}
 
